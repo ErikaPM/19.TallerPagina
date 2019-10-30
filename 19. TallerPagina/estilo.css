@@ -1,0 +1,40 @@
+* {
+  padding: 50 px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form {
+  background-color: gray;
+  width: 300px;
+  color: black;
+}
+
+.card {
+}
+
+label {
+  font-size: 30px;
+}
+
+input {
+  font-size: 20px;
+}
+
+header {
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.errores {
+  font-size: 20px;
+  font-style: italic;
+  color: red;
+}

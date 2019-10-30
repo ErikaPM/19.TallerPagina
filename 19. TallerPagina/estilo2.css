@@ -1,0 +1,70 @@
+.contenedor {
+  display: grid;
+  grid-template-rows: 1fr, 1fr;
+  grid-template-columns: 1fr, 1fr;
+  height: 100px;
+  border: black, 2px, solid;
+  padding: 10px;
+}
+
+.usuarioSaludo {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: white;
+  height: 200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  background-image: url(images/usuario.jpg);
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: 200px;
+}
+
+.listasTareas {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-color: lightgray;
+  height: 200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.nuevasListas {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: blue;
+  height: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
+
+.misTareas {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: green;
+  height: 400px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
+
+/* ESTILO DEL MENSAJE */
+
+#tareasImpresas {
+  font-size: 20 px;
+  text-align: justify;
+  font-family: serif;
+}
